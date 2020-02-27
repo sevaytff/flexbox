@@ -1,0 +1,40 @@
+$color-menu: #2c70ff;
+
+.menu-bg {
+  background: $color-menu;
+}
+
+.menu {
+  max-width: 960px;
+  margin: 0px auto;
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu a {
+  color: $fonte-branca;
+}
+
+.menu-logo {
+  font-size: 2.25em;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.menu-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-nav a {
+  font-size: 1.25em;
+  display: block;
+  padding: 10px;
+}
+
+.menu-nav a:hover {
+  color: $color-principal;
+}
